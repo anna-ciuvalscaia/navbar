@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Sliding css nav</title>
+    <style>
+       body {
+           margin: 0; font-family: Arial;
+       }
+       ul {margin: 0; padding: 0; list-style: none;}
+       a {text-decoration: none; color: white; }
+       img {height: 32px; margin-right: 8px;}
+       nav {
+           background-color: #445566;
+        min-width: 150px;
+        max-width: 200px;
+        margin-top: -160px;
+       }
+       nav:hover {margin-top: 0px;transition: 0.5s;}
+       li {padding: 10px; border-bottom: 1px solid black; text-align: center; transition: 0.5s;}
+       li:hover {background-color: #667788;}
+       div {margin-top: 20px; margin-left: 10px;}
+       .btn {
+           padding: 10px; border-radius: 20px;
+           min-width: 90px; border: 2px solid maroon;
+           outline: none; background-color: mediumvioletred;
+           color: mintcream;
+       }
+       .btn:hover {background-color: orchid; border: rgb(233, 75, 127);}
+    
+    </style>
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="#">Prietenii</a></li>
+        <li><a href="#">Profilul</a></li>
+        <li><a href="#">Setari</a></li>
+        <li><a href="#">Logare</a></li>
+        <li><a href="#"><img src="images/avataaars.png" alt="foto avatar"> Alina Rotaru</a></li>
+    </ul>
+    </nav>
+    <div>
+    <button class="btn">Next>></button>
+    <button class="btn">OK</button>
+    </div>
+</body>
+
+</html>
